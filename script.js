@@ -20,6 +20,7 @@ function searchMovies(query) {
 }
 
 function displayResults(results) {
+  console.log(results);  // Imprimir resultados en la consola
   const resultsContainer = document.getElementById('results');
   resultsContainer.innerHTML = '';  // Limpiar resultados anteriores
 
